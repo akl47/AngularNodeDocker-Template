@@ -1,0 +1,9 @@
+<mat-toolbar color="primary">
+    <button mat-button routerLink="/"><img src='../../../assets/logo.svg'></button>
+    <!--Add Additional Pages Here-->
+    <span style="flex: 1 1 auto"></span>
+    <!--Right Aligned-->
+    <button *ngIf="auth.isAuthenticated" mat-button routerLink="/user">Welcome {{auth.displayName}}</button>
+    <button *ngIf="auth.isAuthenticated" mat-button (click)="auth.logout()">Log Out</button>
+    <button *ngIf="!auth.isAuthenticated" mat-button (click)="logIn()">Log In</button>
+  </mat-toolbar>
