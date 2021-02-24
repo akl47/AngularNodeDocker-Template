@@ -8,13 +8,6 @@
       "logging": false,
       "jwt": {
         "secret": "SAMPLE SECRET CHANGE THIS"
-      },
-      "plaid": {
-        "PLAID_CLIENT_ID": "",
-        "PLAID_SECRET":"",
-        "PLAID_PUBLIC_KEY":"",
-        "PLAID_ENV":"development",
-        "PLAID_ACCESS_TOKEN":""
       }
     },
     "test": {
