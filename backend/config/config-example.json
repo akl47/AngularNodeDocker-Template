@@ -1,0 +1,40 @@
+{
+    "development": {
+      "username": "postgres",
+      "password": "postgres",
+      "database": "postgres",
+      "host": "postgres",
+      "dialect": "postgres",
+      "logging": false,
+      "jwt": {
+        "secret": "SAMPLE SECRET CHANGE THIS"
+      },
+      "plaid": {
+        "PLAID_CLIENT_ID": "",
+        "PLAID_SECRET":"",
+        "PLAID_PUBLIC_KEY":"",
+        "PLAID_ENV":"development",
+        "PLAID_ACCESS_TOKEN":""
+      }
+    },
+    "test": {
+      "username": "postgres",
+      "password": "postgres",
+      "database": "postgres",
+      "host": "postgres",
+      "dialect": "postgres",
+      "jwt": {
+        "secret": "SAMPLE SECRET CHANGE THIS"
+      }
+    },
+    "production": {
+      "username": "postgres",
+      "password": "postgres",
+      "database": "postgres",
+      "host": "postgres",
+      "dialect": "postgres",
+      "jwt": {
+        "secret": "SAMPLE SECRET CHANGE THIS"
+      }
+    }
+  }
